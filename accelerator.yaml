@@ -1,0 +1,22 @@
+# This manifest is full of constraint validation.
+# Since violations are reported in bulk and not on the first offending error
+# the corresponding test looks for all violations, by path and error msg
+accelerator:
+  options:
+    - name: multiVal
+      dataType: [string]
+      defaultValue: ["foo", "bar"]
+      display: true
+      required: true
+      inputType: checkbox
+      choices:
+        foo: Foo
+        bar: Bar
+        baz: Baz
+
+engine:
+  sources:
+    - type: ReplaceText
+      substitutions:
+        - text: token
+          with: "booger"

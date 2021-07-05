@@ -1,0 +1,12 @@
+{
+  "steps": [
+    {
+      "sources": {
+        "location": "file:///Users/jleschner/acc/test-multival-options/"
+      },
+      "options": {
+        "multiVal": ["an", "array", "of", "strings"]
+      }
+    }
+  ]
+}
