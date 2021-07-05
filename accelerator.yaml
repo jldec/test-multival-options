@@ -16,4 +16,4 @@ engine:
     - type: ReplaceText
       substitutions:
         - text: token
-          with: "booger"
+          with: "'booger'"
