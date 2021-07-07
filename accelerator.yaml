@@ -7,9 +7,12 @@ accelerator:
       required: true
       inputType: checkbox
       choices:
-        foo: Foo
-        bar: Bar
-        baz: Baz
+        - value: foo
+          text: Foo
+        - value: bar
+          text: Bar
+        - value: baz
+          text: Baz
 
 engine:
   sources:
