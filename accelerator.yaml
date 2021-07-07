@@ -15,7 +15,7 @@ accelerator:
           text: Baz
 
 engine:
-  sources:
+  merge:
     - type: ReplaceText
       substitutions:
         - text: token
