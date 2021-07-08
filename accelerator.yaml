@@ -1,18 +1,18 @@
 accelerator:
   options:
     - name: multiVal
-      dataType: [string]
-      defaultValue: ["foo","baz"]
+      dataType: [number]
+      defaultValue: [10,30]
       display: true
       required: true
       inputType: checkbox
       choices:
-        - value: foo
-          text: Foo
-        - value: bar
-          text: Bar
-        - value: baz
-          text: Baz
+        - value: 10
+          text: Number 10
+        - value: 20
+          text: Number 20
+        - value: 30
+          text: Number 30
 
 engine:
   merge:
