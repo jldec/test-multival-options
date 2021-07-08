@@ -1,8 +1,8 @@
 accelerator:
   options:
     - name: multiVal
-      dataType: string
-      defaultValue: "foo"
+      dataType: [string]
+      defaultValue: ["foo","baz"]
       display: true
       required: true
       inputType: checkbox
