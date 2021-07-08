@@ -1,18 +1,18 @@
 accelerator:
   options:
     - name: multiVal
-      dataType: [number]
-      defaultValue: [10,30]
+      dataType: [boolean]
+      defaultValue: [true,false]
       display: true
       required: true
       inputType: checkbox
       choices:
-        - value: 10
-          text: Number 10
-        - value: 20
-          text: Number 20
-        - value: 30
-          text: Number 30
+        - value: true
+          text: True first
+        - value: true
+          text: True second
+        - value: false
+          text: False first
 
 engine:
   merge:
